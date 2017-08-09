@@ -8,7 +8,7 @@ ArcGIS toolbox script for creating swath profiles
 ## Swath Profiles
 Swath profiles take the average/maximum/minimum of the raster within a certain distance laterally and condense the data into a single profile line.
 
-![Swath Profiles](https://octodex.github.com/images/yaktocat.png)
+![Swath Profiles](https://github.com/GISJMR/ArcGIS-Swath-Profile-Tool/raw/master/SWATHPROFILES.png)
 
 ## Workflow
 * Calculate the azimuth of the polyline
