@@ -3,7 +3,7 @@
 
 ArcGIS toolbox script for creating swath profiles
 
-[DOWNLOAD](link)
+[DOWNLOAD](https://github.com/GISJMR/ArcGIS-Swath-Profile-Tool/raw/master/Swath_Profiles.zip)
 
 ## Swath Profiles
 Swath profiles take the average/maximum/minimum of the raster within a certain distance laterally and condense the data into a 'single profile line'.
