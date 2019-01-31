@@ -1,4 +1,7 @@
 # ArcGIS-Swath-Profile-Tool
+
+Version==ArcGIS 10.3
+
 *Created by James M Roden*
 
 ArcGIS toolbox script for creating swath profiles
