@@ -77,7 +77,7 @@ try:
     angle = get_line_azimuth(profile_line)
 
     # Create swath using buffer
-    buffer_width = str(swath_width/2) + " meters"
+    buffer_width = str(swath_width / 2) + " meters"
     swath = arcpy.Buffer_analysis(profile_line, None, buffer_width, line_end_type="FLAT")
     arcpy.AddMessage("Swath created")    
 
@@ -99,7 +99,8 @@ try:
                                          clipping_geometry="ClippingGeometry")
 
     # Rotate raster. Negate angle for anti-clockwise rotation.
-    rotated_swath_raster = arcpy.Rotate_management(swath_raster, None, "-{}".format(angle),
+    negative_angle = angle * -1
+    rotated_swath_raster = arcpy.Rotate_management(swath_raster, None, negative_angle,
                                                    centroid_coords, "BILINEAR")
 
     # Raster cell size for focal statistics
