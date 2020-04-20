@@ -1,4 +1,5 @@
 # arcgis-swath-profile
+ArcGIS toolbox for creating swath profiles
 
 *James M Roden*
 
