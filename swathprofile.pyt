@@ -14,7 +14,6 @@ import arcpy
 from arcpy.sa import NbrRectangle
 import sys
 import traceback
-import os
 
 
 # Custom exception for number of polylines
