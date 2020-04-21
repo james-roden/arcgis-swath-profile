@@ -49,8 +49,8 @@ class Toolbox(object):
         """ESRI Stub
 
         """
-        self.label = "swathprofile"
-        self.alias = "swathprofile"
+        self.label = "Swath Profile"
+        self.alias = "Swath Profile"
         self.tools = [Tool]
 
 
@@ -60,8 +60,8 @@ class Tool(object):
 
         """
 
-        self.label = 'Swath Profile'
-        self.description = ''
+        self.label = 'Create Swath Profile'
+        self.description = 'Create a swath profile for a given statistic'
         self.canRunInBackground = False
 
     def getParameterInfo(self):
