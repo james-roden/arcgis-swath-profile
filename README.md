@@ -4,6 +4,7 @@ ArcGIS toolbox for creating swath profiles
 *James M Roden*
 
 *Version==1.0.0 // Apr 2020*
+
 Created for ArcGIS 10.5.1
 
 ArcGIS toolbox for creating swath profiles
